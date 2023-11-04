@@ -20,6 +20,9 @@
 		B476AA342AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */ = {isa = PBXBuildFile; fileRef = B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */; };
 		B476AA352AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */ = {isa = PBXBuildFile; fileRef = B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */; };
 		B476AA362AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */ = {isa = PBXBuildFile; fileRef = B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */; };
+		B476AA382AF6C17C00DCD07B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA372AF6C17C00DCD07B /* HomeView.swift */; };
+		B476AA392AF6C17C00DCD07B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA372AF6C17C00DCD07B /* HomeView.swift */; };
+		B476AA3A2AF6C17C00DCD07B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA372AF6C17C00DCD07B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 		B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B476AA302AF5D4DF00DCD07B /* InitSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitSessionView.swift; sourceTree = "<group>"; };
 		B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Neuzeit S LT Std Book"; path = "../../../../../Downloads/Neuzeit S LT Std Book"; sourceTree = "<group>"; };
+		B476AA372AF6C17C00DCD07B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 				B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */,
 				B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */,
 				B476AA302AF5D4DF00DCD07B /* InitSessionView.swift */,
+				B476AA372AF6C17C00DCD07B /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				B476AA2C2AF5BE7300DCD07B /* SplashScreenView.swift in Sources */,
 				B476AA042AF5BB9E00DCD07B /* ContentView.swift in Sources */,
 				B476AA2F2AF5C5DE00DCD07B /* SignInView.swift in Sources */,
+				B476AA382AF6C17C00DCD07B /* HomeView.swift in Sources */,
 				B476AA022AF5BB9E00DCD07B /* nimbleChallengeApp.swift in Sources */,
 				B476AA312AF5D4DF00DCD07B /* InitSessionView.swift in Sources */,
 			);
@@ -303,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B476AA132AF5BB9F00DCD07B /* nimbleChallengeTests.swift in Sources */,
+				B476AA392AF6C17C00DCD07B /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B476AA3A2AF6C17C00DCD07B /* HomeView.swift in Sources */,
 				B476AA1D2AF5BB9F00DCD07B /* nimbleChallengeUITests.swift in Sources */,
 				B476AA1F2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift in Sources */,
 			);

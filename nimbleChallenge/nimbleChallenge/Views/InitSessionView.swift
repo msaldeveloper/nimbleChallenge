@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InitSessionView: View {
     @State private var email = ""
+    @State private var password = ""
     var body: some View {
         VStack {
             ZStack(alignment: .leading) {
@@ -23,6 +24,7 @@ struct InitSessionView: View {
                         
                 }
                 TextField("", text: $email)
+                    .foregroundStyle(Color(.white))
                     .padding(EdgeInsets(top: 17, leading: 10, bottom: 17, trailing: 18))
                     .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(.white), lineWidth: 2))
             }.padding(EdgeInsets(top: 100, leading: 18, bottom: 10, trailing: 18))
@@ -30,7 +32,7 @@ struct InitSessionView: View {
             // password TextField
             
             ZStack(alignment: .leading) {
-                if email.isEmpty {
+                if password.isEmpty {
                     Text("Password")
                         .font(Font.custom("Neuzeit", size: 20))//change font
                         .foregroundStyle(Color(.white))
@@ -40,7 +42,8 @@ struct InitSessionView: View {
                         .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 0))
                         
                 }
-                TextField("", text: $email)
+                SecureField("", text: $password)
+                    .foregroundStyle(Color(.white))
                     .padding(EdgeInsets(top: 17, leading: 10, bottom: 17, trailing: 18))
                     .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(.white), lineWidth: 2))
             }.padding(EdgeInsets(top: 10, leading: 18, bottom: 10, trailing: 18))
@@ -48,16 +51,20 @@ struct InitSessionView: View {
             //Login Button
             
             Button(action: {
-                print("log in")
+                print("log in \(email),\(password)")
             }, label: {
-                Text("Log in")
-                    .fontWeight(.bold)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                    .foregroundStyle(Color(.black))
-                    .padding(EdgeInsets(top: 12, leading: 18, bottom: 12, trailing: 18))
-                    
+                NavigationLink {
+                    HomeView()
+                } label: {
+                    Text("Log in")
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        .foregroundStyle(Color(.black))
+                        .padding(EdgeInsets(top: 12, leading: 18, bottom: 12, trailing: 18))
+                }
             }).buttonStyle(.borderedProminent).tint(Color(.white)).padding(EdgeInsets(top: 10, leading: 18, bottom: 110, trailing: 18))
-                
+            
+            
             
             
         }
