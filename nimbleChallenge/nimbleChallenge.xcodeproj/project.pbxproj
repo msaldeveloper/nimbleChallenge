@@ -14,6 +14,8 @@
 		B476AA132AF5BB9F00DCD07B /* nimbleChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA122AF5BB9F00DCD07B /* nimbleChallengeTests.swift */; };
 		B476AA1D2AF5BB9F00DCD07B /* nimbleChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA1C2AF5BB9F00DCD07B /* nimbleChallengeUITests.swift */; };
 		B476AA1F2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA1E2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift */; };
+		B476AA2C2AF5BE7300DCD07B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */; };
+		B476AA2F2AF5C5DE00DCD07B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B476AA182AF5BB9F00DCD07B /* nimbleChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nimbleChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B476AA1C2AF5BB9F00DCD07B /* nimbleChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nimbleChallengeUITests.swift; sourceTree = "<group>"; };
 		B476AA1E2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nimbleChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		B476AA002AF5BB9E00DCD07B /* nimbleChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				B476AA2D2AF5C5BE00DCD07B /* Views */,
 				B476AA012AF5BB9E00DCD07B /* nimbleChallengeApp.swift */,
 				B476AA032AF5BB9E00DCD07B /* ContentView.swift */,
 				B476AA052AF5BB9F00DCD07B /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				B476AA1E2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift */,
 			);
 			path = nimbleChallengeUITests;
+			sourceTree = "<group>";
+		};
+		B476AA2D2AF5C5BE00DCD07B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */,
+				B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B476AA2C2AF5BE7300DCD07B /* SplashScreenView.swift in Sources */,
 				B476AA042AF5BB9E00DCD07B /* ContentView.swift in Sources */,
+				B476AA2F2AF5C5DE00DCD07B /* SignInView.swift in Sources */,
 				B476AA022AF5BB9E00DCD07B /* nimbleChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
