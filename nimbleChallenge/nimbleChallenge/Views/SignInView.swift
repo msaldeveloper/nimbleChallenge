@@ -20,7 +20,8 @@ struct SignInView: View {
             }
             
             VStack {
-                Image("logo-white")
+                Image("logo-white").resizable().frame(width: 167.84, height: 40, alignment: .center)
+                InitSessionView()
             }
 
             

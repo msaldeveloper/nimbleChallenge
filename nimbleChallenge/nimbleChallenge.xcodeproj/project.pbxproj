@@ -16,6 +16,10 @@
 		B476AA1F2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA1E2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift */; };
 		B476AA2C2AF5BE7300DCD07B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */; };
 		B476AA2F2AF5C5DE00DCD07B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */; };
+		B476AA312AF5D4DF00DCD07B /* InitSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476AA302AF5D4DF00DCD07B /* InitSessionView.swift */; };
+		B476AA342AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */ = {isa = PBXBuildFile; fileRef = B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */; };
+		B476AA352AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */ = {isa = PBXBuildFile; fileRef = B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */; };
+		B476AA362AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */ = {isa = PBXBuildFile; fileRef = B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,8 @@
 		B476AA1E2AF5BB9F00DCD07B /* nimbleChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nimbleChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B476AA302AF5D4DF00DCD07B /* InitSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitSessionView.swift; sourceTree = "<group>"; };
+		B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Neuzeit S LT Std Book"; path = "../../../../../Downloads/Neuzeit S LT Std Book"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		B476AA002AF5BB9E00DCD07B /* nimbleChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				B476AA322AF5DA2E00DCD07B /* Fonts */,
 				B476AA2D2AF5C5BE00DCD07B /* Views */,
 				B476AA012AF5BB9E00DCD07B /* nimbleChallengeApp.swift */,
 				B476AA032AF5BB9E00DCD07B /* ContentView.swift */,
@@ -137,8 +144,17 @@
 			children = (
 				B476AA2B2AF5BE7300DCD07B /* SplashScreenView.swift */,
 				B476AA2E2AF5C5DE00DCD07B /* SignInView.swift */,
+				B476AA302AF5D4DF00DCD07B /* InitSessionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B476AA322AF5DA2E00DCD07B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B476AA332AF5DA5D00DCD07B /* Neuzeit S LT Std Book */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B476AA092AF5BB9F00DCD07B /* Preview Assets.xcassets in Resources */,
+				B476AA342AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */,
 				B476AA062AF5BB9F00DCD07B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B476AA352AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B476AA362AF5DA5D00DCD07B /* Neuzeit S LT Std Book in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +294,7 @@
 				B476AA042AF5BB9E00DCD07B /* ContentView.swift in Sources */,
 				B476AA2F2AF5C5DE00DCD07B /* SignInView.swift in Sources */,
 				B476AA022AF5BB9E00DCD07B /* nimbleChallengeApp.swift in Sources */,
+				B476AA312AF5D4DF00DCD07B /* InitSessionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
